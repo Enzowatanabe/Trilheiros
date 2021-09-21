@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    /*background-color: rgb(187, 96, 96); cor do fundo*/
+    background-image: url(img/IMG_2450.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tudo {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.barra-navegacao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    justify-content: center;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: white;
+    
+     
+}
+
+.barra-navegacao a {
+   
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.branco-centro {
+    text-align: center;
+    color: white;
+}
+
+.textopi{
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+h3 {
+    font-size: 14px;
+    
+}
+
+.titulo{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+
+}
