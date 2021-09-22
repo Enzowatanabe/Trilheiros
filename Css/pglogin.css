@@ -1,0 +1,16 @@
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.btn-login:hover{
+    background-color: rgb(21, 158, 182);
+}
+
+.btn-login{
+    background-color: chocolate;
+}
